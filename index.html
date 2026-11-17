@@ -1,0 +1,1012 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>花都影视在线-免费观影指南与片单</title>
+<meta name="description" content="花都影视在线提供免费高清观影入口，涵盖港片修复、院线新片、剧集连载与影人专题，按类型与年份整理，附清晰画质说明与更新记录，帮你快速找到想看的作品。">
+<meta name="keywords" content="花都影视在线">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231b1f3a'/%3E%3Cpath d='M14 18h36v28H14z' fill='none' stroke='%23f2b544' stroke-width='4'/%3E%3Cpath d='M27 26l14 6-14 6z' fill='%23f2b544'/%3E%3C/svg%3E">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"花都影视在线","description":"免费高清观影入口与片单整理","inLanguage":"zh-CN"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"花都影视在线的港片修复版是原版片长吗？","acceptedAnswer":{"@type":"Answer","text":"标注“修复版”的条目大多为原影院片长，个别条目保留加长片段，具体以条目页的时长字段为准，例如《阿飞正传》修复版标注为94分钟。"}},
+{"@type":"Question","name":"免费观影需要注册账号吗？","acceptedAnswer":{"@type":"Answer","text":"浏览片单与查看画质说明不需要账号；收藏片单时可以选择本地保存，不填写手机号也能使用。"}},
+{"@type":"Question","name":"4K与1080P版本有什么区别？","acceptedAnswer":{"@type":"Answer","text":"4K版码率更高、暗部细节更清楚，适合大屏；1080P版加载更快，流量消耗约为4K的三分之一，移动网络下推荐后者。"}},
+{"@type":"Question","name":"粤语原声和国语配音怎么选？","acceptedAnswer":{"@type":"Answer","text":"港产片默认提供粤语原声轨道，配音版本单独标注。对白节奏与俚语笑点在原声里保留更完整，字幕以简化字呈现。"}},
+{"@type":"Question","name":"片单多久更新一次？","acceptedAnswer":{"@type":"Answer","text":"每周四更新一批，主推新片每周一到两条，修复专题每月一期。2026年11月5日已上线第44期港片修复专题。"}},
+{"@type":"Question","name":"为什么有些条目只有预告片？","acceptedAnswer":{"@type":"Answer","text":"版权授权分批到账，未到期的条目先上架预告与剧照，正片入口在授权后开放，条目页会记录状态变更时间。"}}
+]}
+</script>
+<style>
+:root{
+  --ink:#1b1f3a;
+  --ink-soft:#3c4260;
+  --muted:#6b7190;
+  --line:#e2e4ee;
+  --bg:#f7f7fb;
+  --card:#ffffff;
+  --brand:#1b1f3a;
+  --accent:#c8452c;
+  --gold:#f2b544;
+  --teal:#1e7a72;
+  --radius:14px;
+  --radius-sm:8px;
+  --shadow:0 6px 20px rgba(27,31,58,.08);
+  --shadow-sm:0 2px 8px rgba(27,31,58,.06);
+  --gap:20px;
+  --wrap:1180px;
+  --font:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;font-family:var(--font);color:var(--ink);background:var(--bg);
+  line-height:1.75;font-size:16px;-webkit-font-smoothing:antialiased;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+h1,h2,h3,h4{margin:0;line-height:1.35;font-weight:700}
+p{margin:0 0 14px}
+ul,ol{margin:0 0 14px;padding-left:22px}
+li{margin-bottom:8px}
+button{font-family:inherit}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+:target{scroll-margin-top:120px}
+
+/* 公告条 + 页头 吸顶组合 */
+.sticky-top{position:sticky;top:0;z-index:60}
+.notice{
+  background:var(--brand);color:#f4f5fb;font-size:13.5px;
+  display:flex;gap:10px;align-items:center;justify-content:center;
+  padding:8px 20px;text-align:center;flex-wrap:wrap;
+}
+.notice b{color:var(--gold);font-weight:600}
+.notice .dot{width:6px;height:6px;border-radius:50%;background:var(--gold);display:inline-block}
+.site-head{
+  background:rgba(255,255,255,.96);border-bottom:1px solid var(--line);
+  backdrop-filter:blur(8px);
+}
+.head-in{display:flex;align-items:center;gap:26px;height:66px}
+.brand{display:flex;align-items:center;gap:10px;font-weight:800;font-size:19px;letter-spacing:.5px;color:var(--ink);white-space:nowrap}
+.brand svg{width:34px;height:34px;flex:none}
+.brand .bw span{color:var(--accent)}
+.nav{display:flex;gap:4px;flex-wrap:wrap;flex:1}
+.nav a{
+  padding:7px 12px;font-size:14.5px;color:var(--ink-soft);border-radius:999px;
+  transition:background .18s,color .18s;white-space:nowrap;
+}
+.nav a:hover{background:#eef0f8;color:var(--ink)}
+.nav a:focus-visible,.menu-btn:focus-visible,.search input:focus-visible,.search button:focus-visible,.top-btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.head-tools{display:flex;align-items:center;gap:12px;margin-left:auto}
+.search{display:flex;align-items:center;background:#eef0f8;border-radius:999px;padding:3px 4px 3px 14px}
+.search input{border:0;background:transparent;padding:6px 4px;width:150px;font-size:14px;color:var(--ink)}
+.search input:focus{outline:none}
+.search button{
+  border:0;background:var(--ink);color:#fff;border-radius:999px;padding:6px 14px;
+  font-size:13.5px;cursor:pointer;
+}
+.search button:hover{background:var(--ink-soft)}
+.search-result{
+  display:none;font-size:13px;color:var(--muted);margin-top:10px;padding:10px 14px;
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+}
+.search-result.show{display:block}
+.menu-btn{display:none;border:1px solid var(--line);background:#fff;border-radius:999px;padding:7px 14px;font-size:14px;cursor:pointer}
+
+/* 首屏 */
+.hero{
+  position:relative;overflow:hidden;color:#eef0f8;
+  background:linear-gradient(140deg,#141833 0%,#1b1f3a 45%,#2a2350 100%);
+}
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background:
+    radial-gradient(circle at 82% 18%,rgba(242,181,68,.22),transparent 42%),
+    radial-gradient(circle at 12% 88%,rgba(200,69,44,.20),transparent 46%);
+  pointer-events:none;
+}
+.hero-in{position:relative;display:grid;grid-template-columns:1.15fr .85fr;gap:44px;padding:58px 0 64px;align-items:center}
+.hero-kicker{display:inline-flex;align-items:center;gap:8px;font-size:13px;color:var(--gold);letter-spacing:2px;border:1px solid rgba(242,181,68,.4);border-radius:999px;padding:4px 14px;margin-bottom:18px}
+.hero h1{font-size:clamp(30px,4.6vw,48px);letter-spacing:1px;margin-bottom:16px}
+.hero h1 em{font-style:normal;color:var(--gold)}
+.hero p{color:#c8cbe0;max-width:30em;font-size:16px}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+.btn{
+  display:inline-block;padding:11px 22px;border-radius:999px;font-size:15px;font-weight:600;
+  transition:transform .18s,background .18s,box-shadow .18s;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-main{background:var(--gold);color:#20233d;box-shadow:0 6px 18px rgba(242,181,68,.3)}
+.btn-ghost{border:1px solid rgba(238,240,248,.35);color:#eef0f8}
+.hero-stats{display:flex;gap:26px;margin-top:30px;flex-wrap:wrap}
+.hero-stats div strong{display:block;font-size:22px;color:#fff;line-height:1.2}
+.hero-stats div span{font-size:12.5px;color:#a8adc9;letter-spacing:1px}
+/* 首屏原创构图 */
+.hero-art{position:relative;height:320px}
+.film-strip{
+  position:absolute;inset:0;border-radius:18px;overflow:hidden;
+  border:1px solid rgba(238,240,248,.14);background:rgba(255,255,255,.03);
+}
+.film-strip::before{
+  content:"";position:absolute;top:0;bottom:0;left:0;right:0;
+  background-image:repeating-linear-gradient(to bottom,rgba(242,181,68,.5) 0 10px,transparent 10px 34px);
+  width:14px;opacity:.55;
+}
+.film-strip::after{
+  content:"";position:absolute;top:0;bottom:0;right:0;width:14px;
+  background-image:repeating-linear-gradient(to bottom,rgba(242,181,68,.5) 0 10px,transparent 10px 34px);
+  opacity:.55;
+}
+.art-card{
+  position:absolute;background:#20244a;border:1px solid rgba(238,240,248,.16);
+  border-radius:10px;box-shadow:0 12px 28px rgba(0,0,0,.35);padding:14px;
+}
+.art-a{left:34px;top:34px;width:200px}
+.art-b{right:38px;top:96px;width:184px}
+.art-c{left:72px;bottom:30px;width:190px}
+.art-line{height:8px;border-radius:4px;background:rgba(238,240,248,.22);margin-bottom:9px}
+.art-line.s{width:60%}
+.art-line.g{background:var(--gold);opacity:.85;height:10px;width:46%}
+.art-thumb{
+  height:64px;border-radius:6px;margin-bottom:10px;
+  background:linear-gradient(120deg,#3a3570,#9c3f2c 70%,#f2b544);
+}
+.art-c .art-thumb{background:linear-gradient(120deg,#1e7a72,#2a2350 65%,#c8452c)}
+.art-tag{font-size:11px;color:var(--gold);letter-spacing:1px}
+
+/* 主内容 */
+.main{padding:46px 0 30px}
+.section{margin-bottom:52px}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:16px;margin-bottom:20px;flex-wrap:wrap}
+.sec-head h2{font-size:23px;letter-spacing:.5px;position:relative;padding-left:14px}
+.sec-head h2::before{
+  content:"";position:absolute;left:0;top:6px;bottom:6px;width:4px;border-radius:2px;
+  background:linear-gradient(var(--gold),var(--accent));
+}
+.sec-head .sub{font-size:13.5px;color:var(--muted)}
+.lead{color:var(--ink-soft);max-width:70ch}
+
+.grid{display:grid;gap:var(--gap)}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{
+  background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);overflow:hidden;
+}
+.card-pad{padding:20px}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p{font-size:14.5px;color:var(--ink-soft);margin-bottom:10px}
+.card .thumb{width:100%;height:168px;object-fit:cover}
+.meta{font-size:12.5px;color:var(--muted);display:flex;gap:12px;flex-wrap:wrap}
+.meta b{color:var(--accent);font-weight:600}
+.tag{
+  display:inline-block;font-size:12.5px;padding:3px 10px;border-radius:999px;
+  background:#eef0f8;color:var(--ink-soft);margin:0 6px 6px 0;
+  border:1px solid transparent;transition:border-color .18s,color .18s;
+}
+a.tag:hover{border-color:var(--accent);color:var(--accent)}
+.badge{display:inline-block;font-size:11.5px;padding:2px 8px;border-radius:4px;background:var(--teal);color:#fff;letter-spacing:.5px}
+.badge.rep{background:var(--accent)}
+.badge.pre{background:#7a5cc4}
+
+/* 领域概览 标签索引 */
+.index-tags{display:flex;flex-wrap:wrap;gap:10px}
+.index-tags a{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius-sm);
+  padding:12px 16px;font-size:14.5px;color:var(--ink-soft);min-width:132px;flex:1 1 132px;
+  box-shadow:var(--shadow-sm);transition:transform .18s,border-color .18s;
+}
+.index-tags a:hover{transform:translateY(-3px);border-color:var(--accent);color:var(--ink)}
+.index-tags a small{display:block;color:var(--muted);font-size:12px;margin-top:2px}
+
+/* 精选 网格卡片 */
+.pick-grid{grid-template-columns:repeat(3,1fr)}
+.pick .card:hover{box-shadow:var(--shadow)}
+.pick h3 a:hover{color:var(--accent)}
+
+/* 最新更新 紧凑列表 */
+.updates{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm)}
+.update-row{
+  display:grid;grid-template-columns:86px 1fr auto;gap:16px;align-items:center;
+  padding:13px 20px;border-bottom:1px solid var(--line);font-size:14.5px;
+}
+.update-row:last-child{border-bottom:0}
+.update-row .day{font-size:12.5px;color:var(--muted);letter-spacing:.5px}
+.update-row .t{color:var(--ink)}
+.update-row .t a:hover{color:var(--accent)}
+.update-row .kind{font-size:12.5px;color:var(--teal);white-space:nowrap}
+
+/* 深度解析 分栏正文 */
+.analysis{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);
+  box-shadow:var(--shadow-sm);padding:30px 34px;
+}
+.analysis h2{font-size:23px;margin-bottom:8px}
+.analysis .by{font-size:13px;color:var(--muted);margin-bottom:22px}
+.analysis-col{columns:2;column-gap:38px}
+.analysis-col h3{font-size:16.5px;break-after:avoid;margin:20px 0 8px;color:var(--ink)}
+.analysis-col h3:first-child{margin-top:0}
+.analysis-col p{font-size:14.8px;color:var(--ink-soft);break-inside:avoid-column}
+.claim{
+  border-left:3px solid var(--gold);background:#fbf7ec;border-radius:0 var(--radius-sm) var(--radius-sm) 0;
+  padding:12px 16px;margin:0 0 16px;font-size:14.5px;color:#5a4a20;break-inside:avoid-column;
+}
+.claim b{color:#8a5a12}
+table.cmp{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 18px;break-inside:avoid-column}
+table.cmp th,table.cmp td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+table.cmp th{background:#f2f3f9;font-weight:600;color:var(--ink)}
+table.cmp td{color:var(--ink-soft)}
+
+/* 双栏：主内容 + 侧栏 */
+.columns{display:grid;grid-template-columns:1fr 316px;gap:34px;align-items:start}
+.side{
+  position:sticky;top:112px;background:#fff;border:1px solid var(--line);
+  border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:18px;
+}
+.side h3{font-size:14px;letter-spacing:1px;color:var(--muted);margin-bottom:12px;font-weight:600}
+.side-nav{display:flex;flex-direction:column;gap:2px}
+.side-nav a{
+  font-size:14px;color:var(--ink-soft);padding:7px 10px;border-radius:var(--radius-sm);
+  border-left:3px solid transparent;transition:background .16s,color .16s,border-color .16s;
+}
+.side-nav a:hover{background:#f3f4fa;color:var(--ink)}
+.side-nav a.active{background:#f3f4fa;color:var(--accent);border-left-color:var(--accent);font-weight:600}
+.side-note{font-size:12.8px;color:var(--muted);border-top:1px dashed var(--line);margin-top:14px;padding-top:12px}
+
+/* 体验指南 编号步骤 */
+.steps{counter-reset:st;display:grid;gap:0}
+.step{
+  counter-increment:st;display:grid;grid-template-columns:46px 1fr;gap:16px;
+  padding:18px 0;border-bottom:1px dashed var(--line);
+}
+.step:last-child{border-bottom:0}
+.step::before{
+  content:counter(st,decimal-leading-zero);font-weight:800;font-size:19px;color:var(--accent);
+  border:1px solid var(--line);border-radius:50%;width:44px;height:44px;
+  display:flex;align-items:center;justify-content:center;background:#fff;
+}
+.step h3{font-size:16px;margin-bottom:4px}
+.step p{font-size:14.5px;color:var(--ink-soft);margin:0}
+.step-box{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:10px 26px;box-shadow:var(--shadow-sm)}
+
+/* 对照面板 */
+.panel-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--gap)}
+.panel{
+  border-radius:var(--radius);padding:22px 24px;border:1px solid var(--line);background:#fff;
+  box-shadow:var(--shadow-sm);
+}
+.panel.dark{background:var(--brand);color:#e7e9f5;border-color:transparent}
+.panel.dark p,.panel.dark li{color:#c3c7de}
+.panel h3{font-size:16.5px;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+.panel h3 .chip{font-size:11px;letter-spacing:1px;padding:2px 8px;border-radius:4px;background:#eef0f8;color:var(--ink-soft);font-weight:500}
+.panel.dark h3 .chip{background:rgba(242,181,68,.2);color:var(--gold)}
+.panel ul{margin-bottom:0}
+.panel li{font-size:14.3px}
+
+/* 榜单 */
+.rank{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.rank-row{display:grid;grid-template-columns:52px 1fr auto;gap:16px;align-items:center;padding:15px 22px;border-bottom:1px solid var(--line)}
+.rank-row:last-child{border-bottom:0}
+.rank-no{font-size:22px;font-weight:800;color:#cfd2e2;line-height:1}
+.rank-row:nth-child(1) .rank-no,.rank-row:nth-child(2) .rank-no,.rank-row:nth-child(3) .rank-no{color:var(--accent)}
+.rank-row .rn{font-size:15.5px;font-weight:600}
+.rank-row .rd{font-size:13px;color:var(--muted)}
+.rank-row .rv{font-size:13px;color:var(--teal);white-space:nowrap}
+
+/* 时间线 */
+.timeline{position:relative;padding-left:26px}
+.timeline::before{content:"";position:absolute;left:6px;top:6px;bottom:6px;width:2px;background:var(--line)}
+.tl-item{position:relative;padding:0 0 20px}
+.tl-item::before{content:"";position:absolute;left:-26px;top:6px;width:10px;height:10px;border-radius:50%;background:var(--gold);border:2px solid #fff;box-shadow:0 0 0 1px var(--line)}
+.tl-item time{font-size:12.5px;color:var(--muted);letter-spacing:.5px}
+.tl-item h3{font-size:15.5px;margin:3px 0 4px}
+.tl-item p{font-size:14.3px;color:var(--ink-soft);margin:0}
+
+/* 引语卡 */
+.quotes{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--gap)}
+.quote{
+  background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:20px;
+  box-shadow:var(--shadow-sm);position:relative;
+}
+.quote::before{
+  content:"“";position:absolute;top:6px;right:16px;font-size:44px;color:#e6e8f2;line-height:1;font-family:Georgia,serif;
+}
+.quote p{font-size:14.5px;color:var(--ink-soft);position:relative;z-index:1}
+.quote .who{font-size:13px;color:var(--muted);margin-top:10px}
+.quote .stars{color:var(--gold);font-size:13px;letter-spacing:2px}
+
+/* FAQ */
+.faq{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);overflow:hidden}
+.faq details{border-bottom:1px solid var(--line)}
+.faq details:last-child{border-bottom:0}
+.faq summary{
+  cursor:pointer;padding:15px 46px 15px 20px;font-size:15px;font-weight:600;
+  position:relative;list-style:none;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+  content:"+";position:absolute;right:20px;top:12px;font-size:20px;color:var(--accent);font-weight:400;
+}
+.faq details[open] summary::after{content:"−"}
+.faq summary:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
+.faq .ans{padding:0 20px 18px;font-size:14.5px;color:var(--ink-soft)}
+
+/* 评论 */
+.cmts{display:grid;gap:14px}
+.cmt{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:16px 20px;box-shadow:var(--shadow-sm)}
+.cmt-top{display:flex;align-items:center;gap:10px;font-size:13px;color:var(--muted);margin-bottom:6px;flex-wrap:wrap}
+.cmt-top .av{width:26px;height:26px;border-radius:50%;background:linear-gradient(135deg,#2a2350,#c8452c);color:#fff;font-size:12px;display:flex;align-items:center;justify-content:center;font-weight:600}
+.cmt-top .nm{color:var(--ink);font-weight:600;font-size:13.5px}
+.cmt p{font-size:14.5px;color:var(--ink-soft);margin:0}
+
+/* 资讯 */
+.news-item{display:grid;grid-template-columns:1fr;gap:6px;padding:16px 20px;border-bottom:1px solid var(--line);background:#fff}
+.news-item:last-child{border-bottom:0}
+.news-item h3{font-size:15.5px}
+.news-item p{font-size:14px;color:var(--ink-soft);margin:0}
+.news-item .meta{margin-top:2px}
+
+/* 页尾 */
+.foot{background:var(--brand);color:#c3c7de;padding:48px 0 30px;margin-top:20px}
+.foot-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr 1fr;gap:32px}
+.foot h4{font-size:14px;color:#fff;margin-bottom:12px;letter-spacing:.5px}
+.foot a{font-size:13.8px;color:#c3c7de;display:block;margin-bottom:8px}
+.foot a:hover{color:var(--gold)}
+.foot .brand-f{display:flex;align-items:center;gap:10px;font-weight:800;font-size:18px;color:#fff;margin-bottom:12px}
+.foot .brand-f svg{width:30px;height:30px}
+.foot .pos{font-size:13.5px;color:#a8adc9;max-width:26em;margin-bottom:16px}
+.foot-note{font-size:12.5px;color:#8b90ab;border-top:1px solid rgba(255,255,255,.1);margin-top:32px;padding-top:18px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* 回到顶部 */
+.top-btn{
+  position:fixed;right:20px;bottom:24px;z-index:70;width:44px;height:44px;border-radius:50%;
+  background:var(--accent);color:#fff;border:0;cursor:pointer;font-size:18px;box-shadow:0 6px 18px rgba(200,69,44,.4);
+  opacity:0;visibility:hidden;transform:translateY(8px);transition:opacity .2s,transform .2s,visibility .2s;
+}
+.top-btn.show{opacity:1;visibility:visible;transform:none}
+
+@media (max-width:1000px){
+  .hero-in{grid-template-columns:1fr;gap:30px;padding:44px 0 50px}
+  .hero-art{height:260px;max-width:440px}
+  .columns{grid-template-columns:1fr}
+  .side{position:static;order:2;margin-top:8px}
+  .columns .main-col{order:1}
+  .g3,.pick-grid,.quotes{grid-template-columns:1fr 1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .analysis-col{columns:1}
+}
+@media (max-width:760px){
+  .nav{display:none;position:absolute;left:0;right:0;top:100%;background:#fff;border-bottom:1px solid var(--line);padding:10px 16px;flex-direction:column;box-shadow:var(--shadow)}
+  .nav.open{display:flex}
+  .nav a{padding:10px 12px;border-radius:var(--radius-sm)}
+  .menu-btn{display:inline-block}
+  .head-in{height:60px;gap:12px}
+  .search input{width:96px}
+  .g3,.g2,.pick-grid,.quotes,.panel-grid{grid-template-columns:1fr}
+  .update-row{grid-template-columns:1fr;gap:2px}
+  .update-row .kind{justify-self:start}
+  .analysis{padding:22px 18px}
+  .rank-row{grid-template-columns:40px 1fr;gap:12px}
+  .rank-row .rv{grid-column:2}
+  .foot-grid{grid-template-columns:1fr}
+  .hero h1{font-size:30px}
+  .sec-head h2{font-size:20px}
+  .top-btn{right:14px;bottom:16px}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *{transition:none!important;animation:none!important}
+  .btn:hover,.index-tags a:hover{transform:none}
+}
+</style>
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+</head>
+<body>
+
+<div class="sticky-top">
+  <div class="notice">
+    <span class="dot" aria-hidden="true"></span>
+    <span><b>11月6日更新</b>：第44期港片修复专题上线《重庆森林》4K修复版，新增粤语原声与国语配音双轨；院线新片《长夜将尽》提前点映场同步收录。</span>
+  </div>
+  <header class="site-head">
+    <div class="wrap head-in">
+      <a class="brand" href="/#top" aria-label="返回首页">
+        <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+          <rect width="64" height="64" rx="14" fill="#1b1f3a"/>
+          <path d="M13 18h38v28H13z" fill="none" stroke="#f2b544" stroke-width="3.5"/>
+          <path d="M27 26l14 6-14 6z" fill="#f2b544"/>
+          <circle cx="18" cy="24" r="2" fill="#c8452c"/>
+          <circle cx="18" cy="40" r="2" fill="#c8452c"/>
+        </svg>
+        <span class="bw">花都<span>影视在线</span></span>
+      </a>
+      <nav class="nav" id="mainNav" aria-label="主题导航">
+        <a href="/#overview">领域概览</a>
+        <a href="/#picks">精选片单</a>
+        <a href="/#updates">更新动态</a>
+        <a href="/#channels">分类频道</a>
+        <a href="/#deep">深度解析</a>
+        <a href="/#guide">观影指南</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#comments">影迷评论</a>
+      </nav>
+      <div class="head-tools">
+        <div class="search" role="search">
+          <label for="q" class="sr-only" style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)">搜索片名或影人</label>
+          <input id="q" type="search" placeholder="搜片名 / 影人" autocomplete="off">
+          <button type="button" id="searchBtn">搜索</button>
+        </div>
+        <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="mainNav">菜单</button>
+      </div>
+    </div>
+  </header>
+</div>
+
+<main id="top">
+  <!-- 首屏 -->
+  <section class="hero" aria-labelledby="heroTitle">
+    <div class="wrap hero-in">
+      <div>
+        <span class="hero-kicker">港片修复 · 院线新片 · 剧集连载</span>
+        <h1 id="heroTitle">花都影视在线<em>免费观影入口</em></h1>
+        <p>按类型、年份和影人整理的免费高清片库。港片修复专题每月一期，院线新片在授权后跟进，画质与音轨信息写在条目页里，先看清楚，再点播放。</p>
+        <div class="hero-actions">
+          <a class="btn btn-main" href="/#picks">进入精选片单</a>
+          <a class="btn btn-ghost" href="/#guide">看画质怎么选</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>1,286</strong><span>条目总数</span></div>
+          <div><strong>44</strong><span>修复专题期数</span></div>
+          <div><strong>96%</strong><span>粤语原声覆盖</span></div>
+          <div><strong>每周四</strong><span>片单更新</span></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="film-strip"></div>
+        <div class="art-card art-a">
+          <div class="art-thumb"></div>
+          <div class="art-line g"></div>
+          <div class="art-line"></div>
+          <div class="art-line s"></div>
+        </div>
+        <div class="art-card art-b">
+          <div class="art-tag">4K 修复</div>
+          <div class="art-line g" style="margin-top:8px"></div>
+          <div class="art-line"></div>
+          <div class="art-line s"></div>
+        </div>
+        <div class="art-card art-c">
+          <div class="art-thumb"></div>
+          <div class="art-line g"></div>
+          <div class="art-line s"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap main">
+    <!-- 领域概览 -->
+    <section class="section" id="overview" aria-labelledby="ovTitle">
+      <div class="sec-head">
+        <h2 id="ovTitle">领域概览：免费在线观影的片库构成</h2>
+        <span class="sub">2026年11月6日整理</span>
+      </div>
+      <p class="lead">片库分四块：港产片修复、院线新片、华语剧集、影人专题。港片部分以1990—2005年作品为主，修复版默认带粤语原声；院线新片在院线下线后按授权批次上架，先在条目页挂预告与剧照；剧集按每周两集的节奏跟播，完结后整季归档。所有条目都标了画质档位与音轨，播放前能判断加载速度。</p>
+      <div class="grid g3" style="margin-top:18px">
+        <div class="card card-pad">
+          <span class="badge">港片修复</span>
+          <h3 style="margin-top:10px">1990—2005 港产片修复库</h3>
+          <p>第44期专题收录《重庆森林》《阿飞正传》《春光乍泄》等26部，修复单位为香港电影资料馆合作扫描，4K母版转1080P与4K双档。</p>
+          <div class="meta"><span>来源：修复专题页</span><span>共 26 部</span></div>
+        </div>
+        <div class="card card-pad">
+          <span class="badge rep">院线新片</span>
+          <h3 style="margin-top:10px">下线后 30—45 天上架</h3>
+          <p>《长夜将尽》11月3日院线下线，11月5日挂预告，正片待授权；同批《潮汕旧事》已开放正片，片长118分钟。</p>
+          <div class="meta"><span>来源：新片跟进表</span><span>本周 2 部</span></div>
+        </div>
+        <div class="card card-pad">
+          <span class="badge pre">剧集连载</span>
+          <h3 style="margin-top:10px">每周二、五各更一集</h3>
+          <p>《深水埔的夏天》更新至第9集，单集42分钟；完结剧集移入整季归档，按年份与题材分组，不再占更新位。</p>
+          <div class="meta"><span>来源：剧集排期</span><span>连载 7 部</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 分类入口 标签索引 -->
+    <section class="section" id="channels" aria-labelledby="chTitle">
+      <div class="sec-head">
+        <h2 id="chTitle">分类入口：按类型、年份、影人找片</h2>
+        <span class="sub">10 个频道</span>
+      </div>
+      <div class="index-tags">
+        <a href="/#picks">港片修复<small>26 部 · 4K 双档</small></a>
+        <a href="/#updates">院线新片<small>本周 2 部</small></a>
+        <a href="/#updates">华语剧集<small>连载 7 部</small></a>
+        <a href="/#picks">王家卫作品<small>8 部 · 含加长版</small></a>
+        <a href="/#picks">杜琪峰警匪片<small>11 部</small></a>
+        <a href="/#deep">粤语原声<small>覆盖 96%</small></a>
+        <a href="/#guide">4K 修复片单<small>画质对照</small></a>
+        <a href="/#comments">影迷短评<small>本周 38 条</small></a>
+        <a href="/#news">影展与展映<small>11 月 3 场</small></a>
+        <a href="/#rank">1997 年港片榜<small>按评分排</small></a>
+      </div>
+    </section>
+
+    <!-- 双栏主体：精选 + 侧栏 -->
+    <div class="columns">
+      <div class="main-col">
+        <!-- 精选推荐 -->
+        <section class="section" id="picks" aria-labelledby="pkTitle">
+          <div class="sec-head">
+            <h2 id="pkTitle">精选内容推荐：本周值得点开的 6 部</h2>
+            <span class="sub">11月6日更新</span>
+          </div>
+          <div class="grid pick-grid pick">
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-ckxs/640/360" width="640" height="360" loading="lazy" alt="《重庆森林》4K修复版剧照：霓虹招牌下的走廊">
+              <div class="card-pad">
+                <span class="badge">4K 修复</span>
+                <h3><a href="/#deep">重庆森林 4K 修复版</a></h3>
+                <p>97分钟原版片长，第44期专题主打。午夜场段落暗部细节比2019年蓝光版清楚，粤语原声保留。</p>
+                <div class="meta"><span>1994</span><span>评分 8.7</span><span>粤语原声</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-afzz/640/360" width="640" height="360" loading="lazy" alt="《阿飞正传》修复版剧照：老式电话亭与雨夜街景">
+              <div class="card-pad">
+                <span class="badge">4K 修复</span>
+                <h3><a href="/#picks">阿飞正传 修复版</a></h3>
+                <p>94分钟，结尾三分钟梁朝伟段落完整保留。音轨为单声道转立体声，对白电平比原声轨高约2dB。</p>
+                <div class="meta"><span>1990</span><span>评分 8.5</span><span>加长片段</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-cyjs/640/360" width="640" height="360" loading="lazy" alt="《长夜将尽》点映场剧照：深夜公路上的一辆车">
+              <div class="card-pad">
+                <span class="badge rep">院线新片</span>
+                <h3><a href="/#updates">长夜将尽 点映场</a></h3>
+                <p>11月3日院线下线，时长132分钟。目前仅开放预告与三张剧照，正片授权进度写在条目页状态栏。</p>
+                <div class="meta"><span>2026</span><span>预告</span><span>待授权</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-sstx/640/360" width="640" height="360" loading="lazy" alt="《深水埔的夏天》剧集剧照：旧楼天台晾衣绳">
+              <div class="card-pad">
+                <span class="badge pre">连载</span>
+                <h3><a href="/#updates">深水埔的夏天 第9集</a></h3>
+                <p>单集42分钟，每周二、五更新。第9集把前八集的街坊线收拢，第10集预告里出现新角色，演职员表11月4日补齐。</p>
+                <div class="meta"><span>2026</span><span>更新至 9 集</span><span>粤语</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-cgzb/640/360" width="640" height="360" loading="lazy" alt="《春光乍泄》修复版剧照：伊瓜苏瀑布远景">
+              <div class="card-pad">
+                <span class="badge">4K 修复</span>
+                <h3><a href="/#picks">春光乍泄 修复版</a></h3>
+                <p>98分钟，瀑布段落的红色饱和度做了收敛处理，比2015年版本更接近原底片。西语对白配中文字幕。</p>
+                <div class="meta"><span>1997</span><span>评分 8.8</span><span>彩色修复</span></div>
+              </div>
+            </article>
+            <article class="card">
+              <img class="thumb" src="https://picsum.photos/seed/huadu-csjs/640/360" width="640" height="360" loading="lazy" alt="《潮汕旧事》剧照：潮州老宅门前的家宴">
+              <div class="card-pad">
+                <span class="badge rep">院线新片</span>
+                <h3><a href="/#news">潮汕旧事 正片上线</a></h3>
+                <p>118分钟，11月2日开放正片。方言对白占约七成，提供潮汕话原声与国语配音两轨，字幕含简化字与繁体可选。</p>
+                <div class="meta"><span>2026</span><span>正片</span><span>双音轨</span></div>
+              </div>
+            </article>
+          </div>
+        </section>
+
+        <!-- 深度解析 分栏正文 -->
+        <section class="section" id="deep" aria-labelledby="dpTitle">
+          <div class="analysis">
+            <h2 id="dpTitle">深度解析：港片修复版的画质承诺，兑现了几成</h2>
+            <p class="by">核对对象：第44期专题 26 部修复条目的技术字段与样帧记录 · 2026年11月6日</p>
+            <div class="analysis-col">
+              <p>判断先摆出来：本期 26 部里，真正达到4K母版下变换标准的只有 9 部，其余 17 部的4K档位属于2K修复后上采样。差异在暗部——上采样版本在夜景噪点处会出现轻微涂抹，4K母版版本保留胶片颗粒。</p>
+              <p class="claim"><b>可核对依据：</b>专题页技术字段显示，9 部标注“4K扫描源”，17 部标注“2K修复·4K输出”。样帧对比中，《阿飞正传》雨夜段的颗粒密度为每帧约 210 个噪点单元，《重庆森林》午夜场为 186 个。</p>
+              <h3>片长与版本差异：加长片段并非都保留</h3>
+              <p>《阿飞正传》修复版标 94 分钟，与 1990 年香港公映版一致；《春光乍泄》标 98 分钟，比戛纳首映版短 4 分钟，缺的是片头独白段。这不是修复方删减，而是采用香港公映底片作扫描源。条目页把“版本来源”单列一栏，能查到底片归属。</p>
+              <table class="cmp">
+                <tr><th>条目</th><th>标称画质</th><th>扫描源</th><th>片长</th></tr>
+                <tr><td>重庆森林</td><td>4K</td><td>4K扫描源</td><td>97 分钟</td></tr>
+                <tr><td>阿飞正传</td><td>4K</td><td>4K扫描源</td><td>94 分钟</td></tr>
+                <tr><td>春光乍泄</td><td>4K</td><td>2K修复·4K输出</td><td>98 分钟</td></tr>
+                <tr><td>旺角卡门</td><td>1080P</td><td>2K修复</td><td>102 分钟</td></tr>
+              </table>
+              <h3>音轨处理：单声道转立体声的两种做法</h3>
+              <p>同一批修复里，音轨处理分成两派。《阿飞正传》用声道扩展，把单声道拆成左右两轨，对白电平抬高约2dB；《旺角卡门》保留原始单声道，只在片头加了 0.5 秒静音做电平校准。前者听感更“新”，后者更接近录像厅记忆。条目页音轨栏写明处理方式，选片时能预判。</p>
+              <p>争议在于：有影迷在评论区指出，抬高电平会让雨声盖住部分低语对白。这一说法目前只有 3 条留言，尚未做盲听测试，属于待验证的转述，不作为技术结论。</p>
+              <h3>“免费”与画质之间的取舍</h3>
+              <p>4K档位平均码率约 12Mbps，1080P约 4.2Mbps。同一部《重庆森林》，4K版首帧加载 2.1 秒，1080P版 0.8 秒。移动网络下切1080P更稳，大屏电视再切4K。画质说明写在播放器上方的信息条，不藏在设置二级菜单里。</p>
+              <h3>修复专题为什么每月只做一期</h3>
+              <p>一期26部，扫描、校色、字幕重排平均耗时11天，资料来源为合作扫描单位的排期表。2026年10月那期因《英雄本色》底片霉斑清理延后3天上线，条目页保留了延期说明。频率低是工序决定的，不是内容策略。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 最新更新 紧凑列表 -->
+        <section class="section" id="updates" aria-labelledby="upTitle">
+          <div class="sec-head">
+            <h2 id="upTitle">最新更新：11月4日至11月6日上架记录</h2>
+            <span class="sub">每周四批量更新</span>
+          </div>
+          <div class="updates">
+            <div class="update-row"><span class="day">11月6日</span><span class="t"><a href="/#picks">《重庆森林》4K修复版</a> 上架，双音轨开放</span><span class="kind">修复专题</span></div>
+            <div class="update-row"><span class="day">11月6日</span><span class="t"><a href="/#picks">《阿飞正传》修复版</a> 补充加长片段说明与时长字段</span><span class="kind">条目修订</span></div>
+            <div class="update-row"><span class="day">11月5日</span><span class="t"><a href="/#news">《长夜将尽》</a> 挂出预告与三张剧照，正片待授权</span><span class="kind">院线新片</span></div>
+            <div class="update-row"><span class="day">11月5日</span><span class="t"><a href="/#updates">《深水埔的夏天》第10集</a> 预告上线，演职员表补齐</span><span class="kind">剧集连载</span></div>
+            <div class="update-row"><span class="day">11月4日</span><span class="t"><a href="/#rank">1997年港片评分榜</a> 重排，纳入修复版新评分 41 条</span><span class="kind">榜单</span></div>
+            <div class="update-row"><span class="day">11月4日</span><span class="t"><a href="/#picks">《旺角卡门》</a> 1080P档位码率由 3.8Mbps 调至 4.2Mbps</span><span class="kind">画质调整</span></div>
+          </div>
+        </section>
+
+        <!-- 体验指南 编号步骤 -->
+        <section class="section" id="guide" aria-labelledby="gdTitle">
+          <div class="sec-head">
+            <h2 id="gdTitle">体验指南：从找到片到看清画质的五步</h2>
+            <span class="sub">移动端与电视端通用</span>
+          </div>
+          <div class="steps step-box">
+            <div class="step">
+              <div>
+                <h3>先按影人还是按类型筛</h3>
+                <p>想重看某位导演就点影人专题，例如“杜琪峰警匪片”11部一次列出；只想打发时间就用类型标签，警匪、爱情、家庭三类覆盖面最广。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>看清条目页的画质档位</h3>
+                <p>信息条会写“4K扫描源”或“2K修复·4K输出”。前者暗部颗粒保留，后者夜景略平滑。1080P档位加载快，适合手机流量。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>选原声还是配音</h3>
+                <p>港产片默认粤语原声。配音版本单独列出，切换按钮在播放器右下角。俚语笑点在原声里更完整，字幕以简化字呈现。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>收藏片单不必注册</h3>
+                <p>点条目右上角星标，记录存在本地浏览器。换设备不同步，但不需要手机号，也不会推送通知。</p>
+              </div>
+            </div>
+            <div class="step">
+              <div>
+                <h3>发现加载异常先降档</h3>
+                <p>4K卡顿时切1080P，通常能恢复。若整页无响应，条目页底部有“状态”栏，能看到该条目最近一次可用性检查时间。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 对照面板 -->
+        <section class="section" id="compare" aria-labelledby="cpTitle">
+          <div class="sec-head">
+            <h2 id="cpTitle">画质与音轨对照：4K 版和 1080P 版差在哪</h2>
+            <span class="sub">以《重庆森林》为例</span>
+          </div>
+          <div class="panel-grid">
+            <div class="panel dark">
+              <h3>4K 修复档 <span class="chip">大屏优先</span></h3>
+              <ul>
+                <li>码率约 12Mbps，首帧加载 2.1 秒</li>
+                <li>暗部颗粒保留，午夜场霓虹边缘更锐</li>
+                <li>适合 55 英寸以上电视或投影</li>
+                <li>流量约为 1080P 版的 2.9 倍</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>1080P 档 <span class="chip">移动优先</span></h3>
+              <ul>
+                <li>码率约 4.2Mbps，首帧加载 0.8 秒</li>
+                <li>夜景略有平滑，人物面部细节保留</li>
+                <li>适合手机与平板，弱网下更稳</li>
+                <li>音轨与 4K 版一致，均为粤语原声</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <!-- 时间线 -->
+        <section class="section" id="news" aria-labelledby="nsTitle">
+          <div class="sec-head">
+            <h2 id="nsTitle">相关资讯：展映、授权与片库变动</h2>
+            <span class="sub">近 30 天</span>
+          </div>
+          <div class="timeline">
+            <div class="tl-item">
+              <time>2026年11月5日</time>
+              <h3>《长夜将尽》授权进入排期</h3>
+              <p>院线下线两天后挂出预告，发行方确认数字窗口期为下线后 30—45 天，正片入口随授权开放。</p>
+            </div>
+            <div class="tl-item">
+              <time>2026年11月3日</time>
+              <h3>香港电影资料馆公布第四季度修复名单</h3>
+              <p>名单含 1987 年《龙虎风云》与 1992 年《阮玲玉》，扫描源为原始底片，预计 12 月中旬进入专题排期。</p>
+            </div>
+            <div class="tl-item">
+              <time>2026年10月28日</time>
+              <h3>《潮汕旧事》方言字幕修订</h3>
+              <p>潮汕话对白中 17 处俚语注释更新，修订依据为当地顾问的口述校对，条目页保留修订对照表。</p>
+            </div>
+            <div class="tl-item">
+              <time>2026年10月21日</time>
+              <h3>第43期修复专题收官</h3>
+              <p>该期 22 部条目全部上架，其中 7 部为 4K 扫描源。专题归档后仍可从分类频道进入。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 榜单 -->
+        <section class="section" id="rank" aria-labelledby="rkTitle">
+          <div class="sec-head">
+            <h2 id="rkTitle">1997 年港片评分榜（含修复版新评分）</h2>
+            <span class="sub">样本 1,842 条</span>
+          </div>
+          <div class="rank">
+            <div class="rank-row"><span class="rank-no">1</span><div><div class="rn">春光乍泄</div><div class="rd">修复版新增评分 214 条</div></div><span class="rv">8.8</span></div>
+            <div class="rank-row"><span class="rank-no">2</span><div><div class="rn">香港制造</div><div class="rd">未修复，原版画质</div></div><span class="rv">8.4</span></div>
+            <div class="rank-row"><span class="rank-no">3</span><div><div class="rn">一个字头的诞生</div><div class="rd">1080P 档位</div></div><span class="rv">8.2</span></div>
+            <div class="rank-row"><span class="rank-no">4</span><div><div class="rn">暗花</div><div class="rd">修复版评分 96 条</div></div><span class="rv">8.0</span></div>
+            <div class="rank-row"><span class="rank-no">5</span><div><div class="rn">宋家皇朝</div><div class="rd">双音轨</div></div><span class="rv">7.6</span></div>
+          </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq" aria-labelledby="fqTitle">
+          <div class="sec-head">
+            <h2 id="fqTitle">常见问题：修复版、画质与授权</h2>
+            <span class="sub">6 个高频问题</span>
+          </div>
+          <div class="faq">
+            <details>
+              <summary>港片修复版是原版片长吗？</summary>
+              <div class="ans">多数条目按香港公映底片扫描，片长与当年公映版一致，例如《阿飞正传》94 分钟、《重庆森林》97 分钟。个别条目保留加长片段，条目页的片长字段单独标注，加长部分来源会写明。</div>
+            </details>
+            <details>
+              <summary>免费观影需要注册账号吗？</summary>
+              <div class="ans">浏览片单与查看画质说明不需要账号。收藏片单用本地保存，不填手机号也能用，换设备后不同步。</div>
+            </details>
+            <details>
+              <summary>4K 与 1080P 版本有什么区别？</summary>
+              <div class="ans">4K档位码率约 12Mbps，暗部颗粒更完整，适合大屏；1080P档位约 4.2Mbps，加载更快，流量约为4K的三分之一，移动网络下推荐后者。两者音轨一致。</div>
+            </details>
+            <details>
+              <summary>粤语原声和国语配音怎么选？</summary>
+              <div class="ans">港产片默认粤语原声，配音版本单独标注。俚语与语气词在原声里保留更完整，例如《潮汕旧事》的方言对白占比约七成，配音版会损失一部分地域语感。</div>
+            </details>
+            <details>
+              <summary>片单多久更新一次？</summary>
+              <div class="ans">每周四批量更新，主推新片每周一到两条。修复专题每月一期，2026年11月5日上线的第44期收录 26 部。</div>
+            </details>
+            <details>
+              <summary>为什么有些条目只有预告片？</summary>
+              <div class="ans">版权授权分批到账，未到期的条目先上架预告与剧照。条目页状态栏记录授权变更时间，例如《长夜将尽》11月5日挂预告，正片入口在授权后开放。</div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 用户评论 -->
+        <section class="section" id="comments" aria-labelledby="cmTitle">
+          <div class="sec-head">
+            <h2 id="cmTitle">影迷评论：本周 6 条短评</h2>
+            <span class="sub">含中性意见</span>
+          </div>
+          <div class="cmts">
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">阿</span><span class="nm">阿樵</span><span>11月6日</span><span class="stars">★★★★★</span></div>
+              <p>《重庆森林》午夜场那段，4K版霓虹边缘确实比旧版干净，胶片的颗粒还在。金城武吃罐头的特写，眉毛都看得清。</p>
+            </div>
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">波</span><span class="nm">波仔</span><span>11月6日</span><span class="stars">★★★☆☆</span></div>
+              <p>《阿飞正传》的立体声处理有点用力，雨夜那场对白听着发闷，切回单声道反而舒服。条目页写处理方式这点值得保留。</p>
+            </div>
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">青</span><span class="nm">青柠</span><span>11月5日</span><span class="stars">★★★★☆</span></div>
+              <p>《深水埔的夏天》第9集把街坊线收得挺利落，就是天台那场戏灯光偏黄，像傍晚实拍。第10集预告的新角色有点突兀。</p>
+            </div>
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">老</span><span class="nm">老周</span><span>11月5日</span><span class="stars">★★★☆☆</span></div>
+              <p>《长夜将尽》只有预告，等了三天没等到正片。状态栏写的是授权中，能理解，但预告片剪得把高潮都放进去了，正片还看什么。</p>
+            </div>
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">南</span><span class="nm">南风</span><span>11月4日</span><span class="stars">★★★★☆</span></div>
+              <p>《潮汕旧事》的方言字幕修订版比首版好，17 处注释点开能看对照。家宴那场戏的潮汕话笑点终于看懂了。</p>
+            </div>
+            <div class="cmt">
+              <div class="cmt-top"><span class="av">陈</span><span class="nm">陈小满</span><span>11月4日</span><span class="stars">★★★★★</span></div>
+              <p>1080P档位在手机上真的快，地铁里也能秒开《旺角卡门》。4K留给家里电视，两边各取所需。</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- 相关推荐 标签 -->
+        <section class="section" id="related" aria-labelledby="rlTitle">
+          <div class="sec-head">
+            <h2 id="rlTitle">相关推荐：相近片单与专题</h2>
+            <span class="sub">按题材关联</span>
+          </div>
+          <div>
+            <a class="tag" href="/#picks">王家卫作品合集</a>
+            <a class="tag" href="/#picks">杜琪峰警匪片</a>
+            <a class="tag" href="/#deep">4K修复片单</a>
+            <a class="tag" href="/#guide">粤语原声怎么选</a>
+            <a class="tag" href="/#rank">1997年港片榜</a>
+            <a class="tag" href="/#news">香港电影资料馆修复名单</a>
+            <a class="tag" href="/#picks">潮汕方言电影</a>
+            <a class="tag" href="/#updates">本周剧集连载</a>
+            <a class="tag" href="/#guide">画质档位说明</a>
+            <a class="tag" href="/#comments">影迷短评汇总</a>
+          </div>
+        </section>
+      </div>
+
+      <!-- 侧栏 置于主内容之后（DOM顺序） -->
+      <aside class="side" id="sidebar" aria-label="栏目导航与说明">
+        <h3>栏目导航</h3>
+        <nav class="side-nav" aria-label="侧栏导航">
+          <a href="/#overview">领域概览</a>
+          <a href="/#channels">分类入口</a>
+          <a href="/#picks">精选内容推荐</a>
+          <a href="/#deep">深度解析</a>
+          <a href="/#updates">最新更新</a>
+          <a href="/#guide">体验指南</a>
+          <a href="/#compare">画质对照</a>
+          <a href="/#news">相关资讯</a>
+          <a href="/#rank">1997年港片榜</a>
+          <a href="/#faq">常见问题</a>
+          <a href="/#comments">影迷评论</a>
+          <a href="/#related">相关推荐</a>
+        </nav>
+        <div class="side-note">
+          条目字段含扫描源、片长、音轨处理方式与状态变更时间。画质示例取自第44期修复专题，样帧记录保存于条目页。
+        </div>
+      </aside>
+    </div>
+
+    <!-- 创作者证言 引语卡 -->
+    <section class="section" id="voices" aria-labelledby="vcTitle">
+      <div class="sec-head">
+        <h2 id="vcTitle">创作者与修复人员说法</h2>
+        <span class="sub">3 条受访记录</span>
+      </div>
+      <div class="quotes">
+        <div class="quote">
+          <p>“4K 扫描不是万能。底片霉斑清理花的时间比扫描多三倍，有些划痕只能保留，硬修反而假。”</p>
+          <div class="who">— 修复师 林先生 · 11月3日受访</div>
+        </div>
+        <div class="quote">
+          <p>“我们做字幕重排时，粤语俚语不直译，先写注释再看观众反馈。第一期有 9 处被指出不够准确。”</p>
+          <div class="who">— 字幕组 阿珊 · 10月28日受访</div>
+        </div>
+        <div class="quote">
+          <p>“数字窗口期写进合同，院线下线后 30 到 45 天。观众催正片，我们只能把状态栏写清楚。”</p>
+          <div class="who">— 版权对接 陈先生 · 11月5日受访</div>
+        </div>
+      </div>
+    </section>
+  </div>
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="brand-f">
+          <svg viewBox="0 0 64 64" role="img" aria-hidden="true">
+            <rect width="64" height="64" rx="14" fill="#242a52"/>
+            <path d="M13 18h38v28H13z" fill="none" stroke="#f2b544" stroke-width="3.5"/>
+            <path d="M27 26l14 6-14 6z" fill="#f2b544"/>
+          </svg>
+          <span>花都影视在线</span>
+        </div>
+        <p class="pos">把片长、扫描源和音轨写进条目，先查清楚再点播放。</p>
+        <p style="font-size:12.5px;color:#8b90ab">页面更新时间：2026年11月6日 · 对应更新项：第44期专题上架、条目时长字段修订</p>
+      </div>
+      <div>
+        <h4>片库</h4>
+        <a href="/#picks">港片修复</a>
+        <a href="/#updates">院线新片</a>
+        <a href="/#updates">华语剧集</a>
+        <a href="/#rank">年度榜单</a>
+      </div>
+      <div>
+        <h4>专题</h4>
+        <a href="/#deep">4K 修复解析</a>
+        <a href="/#guide">画质档位指南</a>
+        <a href="/#news">影展与展映</a>
+        <a href="/#voices">修复人员说法</a>
+      </div>
+      <div>
+        <h4>社区</h4>
+        <a href="/#comments">影迷短评</a>
+        <a href="/#faq">常见问题</a>
+        <a href="/#related">相关推荐</a>
+        <a href="/#channels">分类频道</a>
+      </div>
+    </div>
+    <div class="foot-note">
+      <span>本站内容为示例片单与条目说明，评分、评论、更新数均为演示数据。</span>
+      <span>© 2026 花都影视在线 · 保留所有权利</span>
+    </div>
+  </div>
+</footer>
+
+<button class="top-btn" id="topBtn" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  var menuBtn=document.getElementById('menuBtn');
+  var nav=document.getElementById('mainNav');
+  menuBtn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded',open?'true':'false');
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.tagName==='A'&&window.innerWidth<=760){
+      nav.classList.remove('open');
+      menuBtn.setAttribute('aria-expanded','false');
+    }
+  });
+
+  var q=document.getElementById('q');
+  var btn=document.getElementById('searchBtn');
+  var resultBox=document.createElement('div');
+  resultBox.className='search-result';
+  resultBox.setAttribute('role','status');
+  resultBox.setAttribute('aria-live','polite');
+  var host=document.querySelector('.head-tools');
+  host.parentNode.insertBefore(resultBox,host.nextSibling);
+
+  function doSearch(){
+    var kw=q.value.trim().toLowerCase();
+    if(!kw){resultBox.className='search-result';resultBox.textContent='';return;}
+    var nodes=document.querySelectorAll('main h2, main h3, main .tag, main .rn, main p, main li');
+    var hits=[];
+    nodes.forEach(function(n){
+      var t=n.textContent.toLowerCase();
+      if(t.indexOf(kw)>-1) hits.push(n);
+    });
+    resultBox.className='search-result show';
+    if(!hits.length){
+      resultBox.textContent='没有找到与“'+q.value.trim()+'”相关的片名或影人，试试“重庆森林”“杜琪峰”或“4K修复”。';
+      return;
+    }
+    var names=[];
+    hits.slice(0,5).forEach(function(n){names.push(n.textContent.trim().slice(0,26));});
+    resultBox.textContent='找到 '+hits.length+' 条相关内容：'+names.join('；');
+  }
+  btn.addEventListener('click',doSearch);
+  q.addEventListener('keydown',function(e){if(e.key==='Enter'){e.preventDefault();doSearch();}});
+
+  var topBtn=document.getElementById('topBtn');
+  window.addEventListener('scroll',function(){
+    if(window.scrollY>520){topBtn.classList.add('show');}else{topBtn.classList.remove('show');}
+  },{passive:true});
+  topBtn.addEventListener('click',function(){
+    window.scrollTo({top:0,behavior:'smooth'});
+  });
+
+  var links=Array.prototype.slice.call(document.querySelectorAll('.side-nav a'));
+  var targets=links.map(function(a){return document.querySelector(a.getAttribute('href').replace('/#','#'));});
+  function highlight(){
+    var pos=window.scrollY+150;
+    var idx=-1;
+    targets.forEach(function(t,i){if(t&&t.offsetTop<=pos) idx=i;});
+    links.forEach(function(a,i){a.classList.toggle('active',i===idx);});
+  }
+  window.addEventListener('scroll',highlight,{passive:true});
+  highlight();
+})();
+</script>
+</body>
+                </html>
